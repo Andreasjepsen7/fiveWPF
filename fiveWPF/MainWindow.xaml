@@ -1,0 +1,11 @@
+﻿<Window x:Class="fiveWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Word Combination Generator" Height="350" Width="500">
+    <Grid>
+        <TextBox x:Name="inputFilePathTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10" Width="400" Text="Input File Path"/>
+        <TextBox x:Name="outputFilePathTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,40,10,0" Width="400" Text="Output File Path"/>
+        <Button Content="Generate Combinations" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,80,10,0" Width="200" Click="GenerateCombinationsButton_Click"/>
+        <TextBlock x:Name="statusTextBlock" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,120,0,0" Width="400"/>
+    </Grid>
+</Window>
